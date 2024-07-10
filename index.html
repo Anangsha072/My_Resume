@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Responsive Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="heading">My Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li> 
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-image">
+            <img src="image.jpg" alt="image">
+        </div>
+        <div class="hero-content">
+            <h1>Hello, I'm Anangsha Das</h1>
+            <p>I'm a web developer passionate about creating amazing web experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="MY_RESUME.pdf" class="btn" download>Download My Resume</a>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a developer with experience in HTML, CSS, JavaScript, and various frameworks. I love building responsive and dynamic websites.</p>
+            <div class="talent-grid">
+                <h3>Talents and Expertise</h3>
+                <div class="talent-grid">
+                    <div class="talent-box">Web Development (HTML, CSS, JavaScript, React, Angular)</div>
+                    <div class="talent-box">Backend Development (Node.js, Express, Python, Django)</div>
+                    <div class="talent-box">Database Management (MySQL, MongoDB, PostgreSQL)</div>
+                    <div class="talent-box">Version Control (Git, GitHub)</div>
+                    <div class="talent-box">Problem-Solving & Debugging</div>
+                    <div class="talent-box">Responsive Design & UX/UI Principles</div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <a href="https://github.com/Anangsha072/CodeAlpha_MusicPlayer" class="btn" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <a href="https://github.com/Anangsha072/CodeAlpha_Image" class="btn" target="_blank">View Project</a>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <div><i class="fas fa-envelope"></i><a href="mailto:anangshadas1@gmail.com">anangshadas1@gmail.com</a></div>
+                <div><i class="fas fa-phone"></i><a href="tel:+919433413061">(+91) 9433413061</a></div>
+            </div>
+            <form action="https://formspree.io/f/xpwaaawz" method="POST">
+                <label for="email">Your email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Your message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Anangsha Das</p>
+        <div class="social-icons">
+            <a href="https://github.com/Anangsha072" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/anangsha-das-317a42280" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
+
+
